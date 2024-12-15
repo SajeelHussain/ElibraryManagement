@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="adminlogin.aspx" />
     <Content Include="Content\bootstrap\css\bootstrap.min.css" />
     <Content Include="Content\bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\bootstrap\js\jquery-3.2.1.slim.min.js" />
@@ -2169,6 +2170,7 @@
     <Content Include="Content\fontawesome\svgs\solid\yen-sign.svg" />
     <Content Include="Content\fontawesome\svgs\solid\yin-yang.svg" />
     <Content Include="Content\fontawesome\svgs\solid\z.svg" />
+    <Content Include="Content\imgs\adminuser.png" />
     <Content Include="Content\imgs\Book Icon.png" />
     <Content Include="Content\imgs\commitment.png" />
     <Content Include="Content\imgs\defaulter.png" />
@@ -2182,6 +2184,7 @@
     <Content Include="Content\imgs\usericon.png" />
     <Content Include="Content\imgs\Visit us.png" />
     <Content Include="Content\css\term.css" />
+    <Content Include="SignUp.aspx" />
     <Content Include="userlogin.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
@@ -2190,7 +2193,21 @@
     <Content Include="Terms and Conditions.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminlogin.aspx.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminlogin.aspx.designer.cs">
+      <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
