@@ -2180,6 +2180,7 @@
     <Content Include="Content\imgs\Inventory.png" />
     <Content Include="Content\imgs\searchbook.png" />
     <Content Include="Content\imgs\Sign up.png" />
+    <Content Include="Content\imgs\stackedbook.png" />
     <Content Include="Content\imgs\teamwork.png" />
     <Content Include="Content\imgs\usericon.png" />
     <Content Include="Content\imgs\Visit us.png" />
@@ -2191,6 +2192,7 @@
     <Content Include="HomePage.aspx" />
     <Content Include="About Us.aspx" />
     <Content Include="Terms and Conditions.aspx" />
+    <Content Include="UserProfile.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="adminlogin.aspx.cs">
@@ -2249,6 +2251,13 @@
     </Compile>
     <Compile Include="Terms and Conditions.aspx.designer.cs">
       <DependentUpon>Terms and Conditions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserProfile.aspx.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserProfile.aspx.designer.cs">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
